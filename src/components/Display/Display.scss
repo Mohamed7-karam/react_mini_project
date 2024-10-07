@@ -1,0 +1,46 @@
+.display-container {
+  position: relative;
+  display: inline-block;
+}
+
+.display-container img {
+  display: block;
+  width: 30vw;
+}
+
+.display-text {
+  font-family: 'Nunito', sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-60%, -70%);
+  text-align: center;
+  color: black;
+  font-size: 2vw;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+  width: 13vw;
+}
+
+.display-left {
+  position: absolute;
+  top: 22vh;
+  left: 5rem;
+  // width: 100px;
+}
+
+.display-right {
+  top: 22vh;
+  position: absolute;
+  right: 5rem;
+  // width: 100px;
+}
+
+p {
+  font-size: 1rem;
+}
+
+// img {
+//   width: 300px;
+// }
